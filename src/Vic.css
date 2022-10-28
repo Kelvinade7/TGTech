@@ -1,0 +1,6 @@
+@media(max-width:200px){
+    #con{
+        font-size: smaller;
+        margin-left: -5px;
+    }
+}
