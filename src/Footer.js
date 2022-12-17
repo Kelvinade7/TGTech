@@ -2,7 +2,7 @@ import {Card} from 'react-bootstrap'
 function Footer(){
     return(
         <footer>
-            <div class='row' style={{padding:'5px'}}>
+            <div class='row' style={{padding:'25px'}}>
                 <div class='col-lg-4'>
                 <Card >
                 <Card.Title>

@@ -87,7 +87,7 @@ function Services(){
                           <center><h2>Rentals</h2></center>
                         </Card.Title>
                         <Card.Text>
-                            <p style={{fontSize:'20px'}}>When it comes to item renting ,we are a specilist in providing good quality items and materials for rent .This includes:</p>
+                            <p className='pp'>When it comes to item renting ,we are a specilist in providing good quality items and materials for rent .This includes:</p>
 
                         </Card.Text>
                         <div class='row'>

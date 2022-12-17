@@ -6,7 +6,7 @@ function About(){
                 <Card.Title>
                 <h1 style={{color:'black',textAlign:'center',fontFamily:'fantasy'}}>About Us</h1>
                 </Card.Title>
-                <Card.Text style={{fontSize:'15px',fontWeight:'150px',padding:'6px'}}>
+                <Card.Text className='ko' >
                 <p style={{color:'black',marginBottom:'-1px'}}>We are a registered business enterprise,and we render various  services like</p>
                 <p style={{marginLeft:'2px',marginBottom:'-1px'}}>  -Event Decoration & Planning</p>
                 <p style={{marginLeft:'2px',marginBottom:'-1px'}}>-Rentals(Chairs,tables,fabric,Napkins etc)</p>

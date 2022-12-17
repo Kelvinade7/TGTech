@@ -6,11 +6,14 @@ import Services from './Services';
 import Contacts from './Contacts'
 import Footer from './Footer'
 import Caurosel from './Caurosel';
+import React from 'react';
 function App() {
   return (
     <div>
       
-      <Navi/>
+     <React.Fragment>
+     <Navi/>
+     </React.Fragment>
       <Caurosel/>
       <br/>
       <Routes>
