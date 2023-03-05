@@ -1,99 +1,236 @@
-*{
-    padding: 0px;
-    margin: 0px;
+#top{
+    height: 560px;
+    opacity: 0.9;
+    position: relative;
+    margin-top: -5.4px;
 }
-header{
+#navi{
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    height: 70px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    width: 100%;
-    
 }
-.ko{
-    font-size: 30px;
-    padding: 5px;
-}
-.Link{
-    margin-left: 1rem;
-    font-size: 0.9cm;
-    color: blue;
-}
-.Link:hover{
-    color: rgba(9, 37, 245, 0.525);
-    text-decoration: solid;
-    text-shadow: 0px 0px black;
-    font-size: 0.95cm;
-    cursor: pointer;
-}
-.nav-btn{
-    visibility: hidden;
-    padding: 5px;
-    color: blue;
-    border: none;
-    background: transparent;
-    font-size: 1.8rem;
-    outline: none;
-}
-.nav-btn:hover{
-    border: none;
-}
-
-.fall{
-    text-align: center;
-    z-index: 2;
-    position: absolute;
-    background: white;
-    width: 100%;
-    height: 100%;
+.but{
     display: none;
-    transition: 2s;
-    
-
-}
-.tim{
-    width: 100%;
-    height: 560px;
-}
-.Card{
+    background:none ;
+    color: white;
     border: none;
+    font-size: 0.7cm;
+    align-items: center;
 }
-.pp{
-    font-size: larger;
+.but.active{
+    border: red solid 2px;
+}
+.a{
+    font-size: 0.7cm;
+    padding: 10px;
+    margin-right: 20px;
+    color: white;
+}
+.ab{
+    color: white;
+    text-decoration: none;
+}
+.ab:hover{
+    color: rgb(230, 14, 14);
+    text-decoration: none;
+}
+#h{
+    font-size: 1.3cm;
+    margin-left: 15px;
+}
+.head{
+    font-size: 1.1cm;
+    color: black;
+}
+Nav{
+    color: white;
+}
+.tet{
+    font-size: 0.9cm;
+    font-weight: 500;
+    padding: 10px;
+}
+.navb{
+    z-index: 3;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    color: white;
+    display: none;
+    height: 550px;
+    font-size: 1cm;
+    
+}
+.for{
+    padding: 5%;
+}
+.fro{
+    padding:3% 24%;
+}
+.img{
+    width: 100%;
+    height: 600px;
+}
+.repair{
+    font-size: 1cm;
+}
+.social{
+    text-align: center;
+    border-radius: 15px;
+    padding: 4px, 0;
+    font-size: 0.7cm;
+    font-weight: 700;
 }
 
-
-@media(max-width:200px){
-    #con{
-        font-size: smaller;
-        margin-left: -5px;
+.car{
+    width: 100%;
+    height: 610px;
+}
+.rop{
+    margin: 30px;
+    border: solid black 5px;
+    padding: 70px;
+    z-index: 0;
+}
+#serv{
+    margin-top: 19px;
+}
+.caption{
+    font-size: 2.2cm;
+    color: white;
+    text-shadow: 0 0 1.7cm black;
+}
+#whatsapp:hover{
+    background: green;
+    color: white;
+}
+#instagram:hover{
+    color: white;
+    background: linear-gradient( purple,pink,red,orange,yellow);
+}
+#facebook:hover{
+    color: white;
+    background: rgb(52, 52, 216);
+}
+#twitter:hover{
+    color: white;
+    background: rgb(76, 149, 217);
+}
+#tik:hover{
+    background: black;
+    color: white;
+    text-shadow:0 0 3px lightseagreen,0 0 5px rgb(220, 83, 83) ;
+}
+#youtube:hover{
+    background: red;
+    color: white;
+}
+@media(max-width:900px){
+    #top{
+        height: 480px;
+    }
+    #navi{
+        height: 65px;
+    }
+    #h{
+        font-size: 1.2cm;
+    }
+    .rop{
+        padding: 15px;
+        margin: 15px;
+    }
+    .img{
+        height: 550px;
+    }
+    .fro{
+        padding: 3% 20%;
+    }
+    .caption{
+        font-size: 1.8cm;
     }
 }
-
-
-@media (max-width:900px) {
-     .nav-btn{
-        visibility: visible;
-     }
-     .nav{
-        display: none;
-     }
-     .tim{
-        height: 490px;
-     }
-     .fall{
+@media(max-width:700px){
+    #top{
+        height: 460px;
+    }
+    .but{
         display: block;
-     }
+    }
+    .a{
+        display: none;
+    }
+    .navb{
+        display: flex;
+    }
+    .head{
+        font-size: 1.2cm;
+    }
+    .tet{
+        font-size: 0.8cm;
+    }
+    .social{
+        font-size: 0.65cm;
+        font-weight: 660;
+    }
+    .car{
+        height: 460px;
+    }
+    .rop{
+        border: solid black 4px;
+    }
+    .img{
+        height: 500px;
+    }
+    .fro{
+        padding: 3% 15%;
+    }
+    .caption{
+        font-size: 1.21cm;
+    }
 }
-@media (max-width:600px){
-    .tim{
-        height:460px
+@media(max-width:500px){
+    #top{
+        height: 400px;
     }
-    header.h3{
-        font-size:0.5cm ;
+    #navi{
+        height: 60px;
     }
-    .ko{
-        font-size: 18px;
-    }   
-
+    #h{
+        font-size: 1cm;
+    }
+    .head{
+        font-size: 0.9cm;
+    }
+    .tet{
+        font-size: 0.59cm;
+        padding: 7px;
+    }
+    .repair{
+        font-size: 0.85cm;
+    }
+    .social{
+        font-size: 0.53cm;
+        font-weight: 590;
+    }
+    .car{
+        height: 400px;
+    }
+    .rop{
+        border: solid 3px black;
+        padding: 10px;
+        margin: 10px;
+    }
+    .img{
+        height: 430px;
+    }
+    .fro{
+        padding: 2% 10%;
+    }
+    .caption{
+        font-size: 0.9cm;
+    }
 }
