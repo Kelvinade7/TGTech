@@ -7,7 +7,7 @@ import { Carousel } from 'react-bootstrap'
 
 function Courosel1(){
     return(
-       <div className='rop'>
+       <div className='rop' style={{zIndex:"-2"}}>
          <Carousel >
             <Carousel.Item>
                 <img src={one} className='car' alt='img'/>

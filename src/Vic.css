@@ -56,7 +56,7 @@ Nav{
     padding: 10px;
 }
 .navb{
-    z-index: 3;
+    z-index: 4;
     justify-content: space-around;
     align-items: center;
     width: 100%;
@@ -193,6 +193,9 @@ Nav{
     .caption{
         font-size: 1.21cm;
     }
+    .ab{
+        font-size: 1.35cm;
+    }
 }
 @media(max-width:500px){
     #top{
@@ -236,7 +239,6 @@ Nav{
         font-size: 0.85cm;
     }
     .ab{
-        margin-left: -4px;
         font-size: 1.17cm;
     }
 }
