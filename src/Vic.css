@@ -12,6 +12,7 @@
     height: 70px;
     display: flex;
     align-items: center;
+    left: 0;
 }
 .but{
     display: none;
@@ -61,8 +62,9 @@ Nav{
     width: 100%;
     color: white;
     display: none;
-    height: 550px;
+    height: 700px;
     font-size: 1cm;
+    left: 0;
     
 }
 .for{
@@ -231,6 +233,6 @@ Nav{
         padding: 2% 10%;
     }
     .caption{
-        font-size: 0.9cm;
+        font-size: 0.85cm;
     }
 }
