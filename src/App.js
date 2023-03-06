@@ -47,7 +47,7 @@ function App() {
       <center><h4 className='head'  id='serv'>OUR SERVICES</h4></center>
       <Card className='card'>
      <Card.Title>
-     <center><h3 className='repair'>Repair</h3></center>
+     <center><h3 className='repair'>Repairs</h3></center>
      </Card.Title>
       <p className='tet'>
         We Repair all kinds of phones(Android,IOS etc),Laptops,Phone Accessories & Gadgets and many more 
