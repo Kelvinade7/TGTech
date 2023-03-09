@@ -35,7 +35,7 @@ function App() {
         <Card.Text>
         <div className='tet' >   <p> TG TECH MOBILE PHONE CLINIC is a professional & google verified repair outlet for mobile phones & other gadgets.
         We Repair,Sell and Swap mobile phones,we also sell quality and standard mobile phone accessories. We are at your
-        service when required.Saving the Life of your mobile phone is our core value
+        service when required.Saving the Life of your mobile gadgets is our core value
       </p></div>
         </Card.Text>
       </Card>
@@ -50,7 +50,8 @@ function App() {
      <center><h3 className='repair'>Repairs</h3></center>
      </Card.Title>
       <p className='tet'>
-        We Repair all kinds of phones(Android,IOS etc),Laptops,Phone Accessories & Gadgets and many more 
+        We Repair all kinds of phones(Android,IOS etc),Laptops and other Gadgets. Our Repair Service includes:Screen Replacement,Battery Replacement,Charging & Charging Ic Replacement,
+        Laptop Repair,Powerbank Repair ,Bluetooth Speakers Repair & Much More
       </p>
       <center><h3 className='repair'>Sales & Swap</h3></center>
       <p className='tet'>
