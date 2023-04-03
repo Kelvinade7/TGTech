@@ -20,7 +20,7 @@ function App() {
     sstate(state=>!state)
 }
   let b= state ?<FaBars/>:<FaTimes/>
-  let a= state ? '':<Navb/>
+  let a= state ? '':<Navb bob={bob}/>
   return (
     <div style={{background:' white',color:'black',padding:'4px'}}> 
       <div style={{position:'fixed',zIndex:'4', width:'100%',backgroundColor:'black',marginTop:'-4px',left:"0"}}>
