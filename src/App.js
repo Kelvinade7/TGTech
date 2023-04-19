@@ -22,7 +22,7 @@ function App() {
   let b= state ?<FaBars/>:<FaTimes/>
   let a= state ? '':<Navb bob={bob}/>
   return (
-    <div style={{background:' white',color:'black',padding:'4px'}}> 
+    <div style={{background:' white',color:'black'}}> 
       <div style={{position:'fixed',zIndex:'4', width:'100%',backgroundColor:'black',marginTop:'-4px',left:"0"}}>
       <Navi b={b} bo={bob} />
       {a}
@@ -33,7 +33,7 @@ function App() {
       <center><h3 className='head' id='toph'>Who Are We</h3></center>
       <Card className='card'>
         <Card.Text>
-        <div className='tet' >   <p> TG TECH MOBILE PHONE CLINIC is a professional & google verified repair outlet for mobile phones & other gadgets.
+        <div className='tet' >   <p > TG TECH MOBILE PHONE CLINIC is a professional & google verified repair outlet for mobile phones & other gadgets.
         We Repair,Sell and Swap mobile phones,we also sell quality and standard mobile phone accessories. We are at your
         service when required.Saving the Life of your mobile gadgets is our core value
       </p></div>
@@ -42,10 +42,11 @@ function App() {
       <div className='for'>
         <img src={ser} alt='img' className='img'/>
       </div>
-      <center id='service' >.</center><br/>
+      
   
-      <center><h4 className='head'  id='serv'>OUR SERVICES</h4></center>
-      <Card className='card'>
+      <Card className='card' style={{background:'black',color:'white'}}>
+      <center id='service' style={{color:'black'}} >.</center><br/>
+      <center><h4 className='head' style={{color:'white'}}  id='serv'>OUR SERVICES</h4></center>
      <Card.Title>
      <center><h3 className='repair'>Repairs</h3></center>
      </Card.Title>
@@ -100,9 +101,9 @@ function App() {
       </p>
       <div className='fro'>
       <Card.Img src={emma} alt='img' className='img'/>
-      </div>
+      </div><br/><br/>
 
-      </Card>
+      </Card><br/>
     
       
       <center><h4 className='head' id='contact'>OUR CONTACTS</h4></center>
